@@ -1,0 +1,43 @@
+body {font: 14px/20px 'Arial', sans-serif; background: blue;}
+.clearfix:before, .clearfix:after{
+	display: table; 
+	content: "";
+	clear: both;
+}
+
+.container{width: 1000px;	margin: 0 auto;}
+
+.block{
+	width: 600px;
+	height: 160px;
+	background: white;
+}
+.block1{
+	width: 61px;
+	height: 42px;
+	margin: 0 auto;
+	background: url(../images/hosting.png) 0 0 no-repeat;
+}
+.block2{
+	width: 61px;
+	height: 43px;
+	margin: 0 auto;
+	background: url(../images/hosting.png) 0 -43px;
+}
+.block3{
+	width: 61px;
+	height: 42px;
+	margin: 0 auto;
+	background: url(../images/hosting.png) 0 -84px;
+}
+.wrapper{
+	width: 200px;
+	float:left;
+}
+p{
+	text-align: center;
+}
+h2{
+	color: red;
+	text-align: center;
+}

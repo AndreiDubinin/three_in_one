@@ -1,0 +1,5 @@
+a:active, a:focus, img {outline: 0;}
+.clear {
+  *zoom: 1;
+  clear: both;
+}

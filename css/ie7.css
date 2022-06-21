@@ -1,0 +1,6 @@
+#middle,#footer {zoom:1;}
+.item-block,
+.item-block-first,
+.hobby-item {display: inline;}
+.item-block p,
+.item-block-first p {cursor: pointer;}
